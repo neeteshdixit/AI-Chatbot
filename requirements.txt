@@ -1,0 +1,33 @@
+# Core Dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+python-multipart
+
+# ML & NLP
+transformers>=4.30.0
+torch>=1.13.0
+datasets
+sentencepiece
+accelerate
+evaluate
+scikit-learn
+
+# Optimization
+optuna
+
+# Utilities
+typing_extensions
+redis
+python-dotenv
+
+# CORS for frontend
+fastapi-cors
+
+# Testing & Evaluation
+pytest
+pytest-asyncio
+httpx
+
+# Logging
+colorlog
